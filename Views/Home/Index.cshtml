@@ -1,4 +1,69 @@
 ﻿@page
 @model projetdotnet.Views.Home.IndexModel
+ViewData["Title"] = "Formation .NET";
 @{
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Formation .NET</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="container-fluid bg-primary text-white p-3 fixed-top">
+        <div class="row align-items-center" style="height: 50px;">
+            <div class="col-4">
+                <img src="~/lib/images/logo.png" alt="Logo" class="img-fluid" style="max-height: 60px;" />
+            </div>
+            <div class="col-4 text-center">
+                <h1>Formation .NET</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Sidebar -->
+            <div style="border: 1px solid #ccc; padding: 10px;" class="col-4 position-fixed top-1 end-0">
+                <!-- Sidebar content goes here -->
+            </div>
+
+            <!-- Content Area -->
+            <div id="content" class="col-8">
+                <!-- Default content is loaded here using PartialView -->
+                @Html.Partial("_defaultpage")
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-4 container-fluid fixed-bottom bg-light footer">
+        <div class="row">
+            <div class="col-8">
+                <h4>Participants au Projet :</h4>
+                <span> ->Jamal Jabbour, </span>
+                <span> ->Abdessamad Idboussadel, </span>
+                <span> ->Oussama Errafif, </span>
+                <span> ->Salma Makhoukhi.</span>
+            </div>
+            <div class="col-4">
+                <p>Numéro de contact : 0607781703</p>
+                <p>&copy; 2023 - Projet Formation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Your JavaScript code for content loading goes here
+    </script>
+</body>
+</html>
+
 }
