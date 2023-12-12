@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ROG Zephyrus/source/repos/projetdotnet/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ROG Zephyrus/source/repos/projetdotnet/Pages/Home/_defaultpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxfZGVmYXVsdHBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ROG Zephyrus/source/repos/projetdotnet/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,14 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ROG Zephyrus/source/repos/projetdotnet/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ROG Zephyrus/source/repos/projetdotnet/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ROG Zephyrus/source/repos/projetdotnet/Views/Home/_defaultpage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfZGVmYXVsdHBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ROG Zephyrus/source/repos/projetdotnet/Pages/Shared/_Layout.cshtml]
